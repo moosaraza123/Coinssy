@@ -1,0 +1,23 @@
+#f{background-color: #000;
+width: 100%;
+
+
+
+}
+#f ul{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20%;
+
+   list-style-type: none;
+}
+#f ul li{
+    text-decoration: none;
+    margin-top: 4%;
+    font-size: 20px;
+}
+#f ul li:hover{
+font-size: 40px;
+text-decoration: none;
+}

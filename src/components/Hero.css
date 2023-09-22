@@ -82,3 +82,40 @@ font-size: 250px;
 
 
 } */
+
+@media screen and (min-width: 380px) and (max-width: 480px) {
+    .heroDiscription{
+        margin-top: 30%;
+       
+    
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+    
+    .heroDiscription img:nth-child(1){
+        display: none;
+     }
+     .heroDiscription img{
+       display: none;
+          
+      }
+     
+      .heroDiscription h2{
+        background: linear-gradient(255deg, #FFF 10.09%, rgba(255, 255, 255, 0.00) 97.47%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        font-weight: 800;
+        font-size: 50px;
+        }
+        .heroDiscription p{
+         font-size: 30px;
+        position: static;
+            }
+
+    }

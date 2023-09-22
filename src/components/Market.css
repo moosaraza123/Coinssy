@@ -1,6 +1,8 @@
 
 *{
   text-transform: capitalize;
+  scrollbar-color: #db00d9 #fff;
+  scrollbar-width: thin;
 }
 .coin-app {
   width: 100%;
@@ -12,6 +14,7 @@
   margin: 0;
   padding: 0%;
 }
+
 
 .coin-search {
 width: 100%;
@@ -95,3 +98,30 @@ margin-bottom: 2%;
   font-weight: 900;
   margin-top: 5%;
 }
+@media screen and (min-width: 380px) and (max-width: 480px) {
+  .checkout h2{
+    font-size: 10px;
+    
+    font-weight: 900;
+    margin-bottom: 5%;
+  
+  }
+  .Btc img{
+    width: 30px;
+   margin-top: 5%;
+  
+  }
+  }
+  @media screen and (min-width: 380px) and (max-width: 480px) {
+    .coin-text{
+      font-size: 20px;
+      
+    }
+    .coin-input{
+      width: 100%;
+    }
+    .coin-app{
+      overflow-x: auto;
+
+    }
+    }

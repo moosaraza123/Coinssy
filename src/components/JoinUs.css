@@ -88,3 +88,22 @@
     background: #fff;
     color: #000;
 }
+@media screen and (min-width: 380px) and (max-width: 480px) {
+    .join p{
+        font-size: 50px;
+       
+        
+     
+    }
+    .join h2{
+        font-size: 80px;
+        
+     
+    }
+    .join img:nth-child(1){
+      display: none;
+     }
+     .join img{
+       display: none;
+      }
+    }

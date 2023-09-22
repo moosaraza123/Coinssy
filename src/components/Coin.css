@@ -71,3 +71,18 @@
   .green {
     color: #11d811;
   }
+  @media screen and (min-width: 380px) and (max-width: 480px) {
+ .chooseMain{
+  flex-direction: column;
+ }
+ .des h1 span{
+  font-size: 40px;
+ }
+ .des h1{
+  font-size: 20px;
+
+ }
+ .ChooseImg img{
+  width: 200px;
+ }
+    }

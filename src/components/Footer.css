@@ -24,3 +24,10 @@
 .privacy a:hover{
     font-size: 20px;
 }
+@media screen and (min-width: 380px) and (max-width: 480px) {
+
+    .footermainDiv i{
+        font-size: 20px;
+        margin-top: 2%;
+    }
+    }
