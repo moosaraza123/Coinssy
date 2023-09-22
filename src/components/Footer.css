@@ -1,0 +1,26 @@
+.footermainDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0%;
+}
+.footermainDiv i{
+    font-size: 40px;
+    margin: 0% 2%;
+    cursor: pointer;
+}
+.privacy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.privacy a{
+    text-decoration: none;
+    margin: 0% 2%;
+    font-size: 16px;
+    font-weight: 900;
+}
+.privacy a:hover{
+    font-size: 20px;
+}
